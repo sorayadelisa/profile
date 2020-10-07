@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap');
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: white;
+  padding: 0px;
+  margin: 0;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 0px;
+  margin: 0;
+  font-weight: 200;
+}
+
+
+
+.header {
+  overflow: hidden;
+  background-color: black;
+
+  padding: 5px 5px;
+  margin: -5px;
+
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 10px;
+  border-radius: 4px;
+
+
+}
+
+
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+.header a.active {
+  background-color: gray;
+  color: white;
+
+}
+
+.header-right {
+  float: right;
+
+}
+
+.first-box {
+  background-color: black;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(black);
+  width: 500px;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 4px;
+
+}
+
+.second-box {
+  background-color: black;
+  padding: 150px;
+  box-shadow: 0 5px 15px rgba(black);
+  border: 1px solid white ;
+  width: 700px;
+  height: 400px ;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 4px;
+
+}
+
+
+.fifth-box {
+  background-color: black;
+  padding: 5px;
+  box-shadow: 0 5px 15px rgba(black);
+  border: 1px solid black;
+  width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 4px;
+
+}
+
+.face-shape {
+  width: 300px;
+
+}
+
+.inline > li {
+  list-style: none;
+  padding: 10px;
+  display: inline-flex;
+}
+
+.inline i {
+  padding: 0;
+}
+
+.inline {
+  padding: 0;
+}
+
+.icons {
+  color: white;
+  font-size: 36px;
+}
+
+.link {
+  font-size: 20px;
+  position: center;
+
+}
+
+
+
+.header-face {
+  width: 3.5%;
+  border-style: solid;
+  border-radius: 3px;
+  border-width:3px;
+  border-color: black;
+}
+
+
+p {
+  margin-top: 170px;
+}
